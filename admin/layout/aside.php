@@ -1,6 +1,6 @@
  <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
      <div class="app-brand demo">
-         <a href="index.html" class="app-brand-link">
+         <a href="main.php?p=dashboard" class="app-brand-link">
              <span class="app-brand-logo demo">
                  <svg
                      width="25"
@@ -66,7 +66,7 @@
                      </g>
                  </svg>
              </span>
-             <span class="app-brand-text demo menu-text fw-bolder ms-2">My Desk</span>
+             <span class="app-brand-text demo menu-text fw-bolder ms-2">Admin Panel</span>
          </a>
 
          <a
@@ -85,7 +85,7 @@
              </a>
          </li>
          <li class="menu-header small text-uppercase">
-             <span class="menu-header-text">MyBlog</span>
+             <span class="menu-header-text">SMASTIC BLOG</span>
          </li>
          <!-- Tables -->
          <li class="menu-item <?= ($_GET['p'] == "blog") ? 'active' : '' ?>">
